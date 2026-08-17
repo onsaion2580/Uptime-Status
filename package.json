@@ -2,15 +2,15 @@
   "name": "uptime-status",
   "version": "1.1.0",
   "private": true,
-  "author": "JLinmr",
-  "url": "https://www.bsgun.cn",
-  "email": "ruoms@qq.com",
+  "author": "datao2233",
+  "url": "https://www.datao2233.top",
+  "email": "nt@datao2233.top",
   "repository": {
     "type": "git",
-    "url": "https://github.com/JLinmr/Uptime-Status"
+    "url": "https://github.com/onsaion2580/Uptime-Status"
   },
   "start-year": "2020",
-  "repositoryUrl": "https://github.com/JLinmr/Uptime-Status",
+  "repositoryUrl": "https://github.com/onsaion2580/Uptime-Status",
   "type": "module",
   "scripts": {
     "dev": "vite",
