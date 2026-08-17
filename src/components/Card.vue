@@ -26,14 +26,6 @@
             <h2 class="text-lg sm:text-xl font-bold truncate text-gray-800 dark:text-gray-100">
               {{ monitor.friendlyName }}
             </h2>
-            <Icon 
-              icon="bi:link-45deg" 
-              class="w-5 h-5 p-1.5 rounded-full transition-colors duration-200
-                text-gray-400 hover:text-gray-600 hover:bg-gray-100
-                dark:text-gray-500 dark:hover:text-gray-400 dark:hover:bg-gray-700/50
-                box-content"
-              @click="openUrl(monitor.url)"
-            />
           </div>
         </div>
         <div class="shrink-0">
