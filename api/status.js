@@ -61,7 +61,7 @@ export async function fetchMonitorStatus({ apiKey } = {}) {
   if (!key) throw new Error('缺少 API Key')
   const since = new Date(Date.now() - DAY30).toISOString()
   const [monitors, incidents] = await Promise.all([
-    paginate(key, '/monitors?limit=200'),
+    paginate(key, '/monitors?limit=200&custom_uptime_ratios=30'),
     paginate(key, `/incidents?started_after=${encodeURIComponent(since)}`)
   ])
   const byMonitor = mergeIncidents(incidents, monitors)
